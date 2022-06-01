@@ -1,8 +1,8 @@
 /*
-*	grupo  :
-*	alumno :
-*	n.exp. :
-*	fecha  :
+*	grupo  : GDAM 1.1
+*	alumno : Alonso Hernandez
+*	n.exp. : 7075
+*	fecha  :  01/06/2022
  */
 package Cheese;
 
