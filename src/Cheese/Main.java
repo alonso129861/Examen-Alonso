@@ -8,7 +8,7 @@ package Cheese;
 
 /**
  *
- * @author ___
+ * @author Alonso
  */
 public class Main {
     

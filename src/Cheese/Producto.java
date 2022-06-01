@@ -1,7 +1,7 @@
 package Cheese;
 /**
  * Clase para la gestión de productos lácteos
- * @author loned
+ * @author Alonso
  */
 public class Producto {
 /**
