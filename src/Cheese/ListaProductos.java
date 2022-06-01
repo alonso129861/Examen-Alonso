@@ -51,6 +51,8 @@ public class ListaProductos {
      */
     public Producto addProducto(Producto prod) {
         
+    if(check_null(prod.getcode())) return null;
+
         if (listaP.containsKey(prod.getcode())) {
             // System.out.println("Producto con código duplicado");
             return null;
@@ -68,7 +70,9 @@ public class ListaProductos {
      * @return devuelve el producto que se elimina
      */
     public Producto eliminarProducto(String codigo) { 
-        
+
+if(check_null(codigo) return null;
+      
         Producto prod = buscarProducto(codigo);
         if (prod != null) {
         listaP.remove(codigo);
@@ -85,6 +89,9 @@ public class ListaProductos {
      */
     
     public Producto buscarProducto(String codigo) { 
+
+if(check_null(codigo) return null;
+
         Producto prod = null;
         
         if (!listaP.containsKey(codigo)) {
